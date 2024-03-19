@@ -26,9 +26,9 @@ try:
     # Crear gráfico de barras
     plt.figure(figsize=(12, 7))  # Tamaño del gráfico
     plt.bar(conceptos, cantidades, color='skyblue')  # Crear barras con los datos
-    plt.title('Ventas Mensuales - 2023')  # Título del gráfico
-    plt.xlabel('Mes')  # Etiqueta eje X
-    plt.ylabel('Ventas')  # Etiqueta eje Y
+    plt.title('Consulta a Transacciones Financieras')  # Título del gráfico
+    plt.xlabel('Concepto')  # Etiqueta eje X
+    plt.ylabel('Cantidades')  # Etiqueta eje Y
     plt.xticks(rotation=45)  # Rotar las etiquetas del eje X para mejor lectura
     plt.grid(axis='y')  # Mostrar cuadrícula solo en eje Y
 
